@@ -4,8 +4,8 @@ permalink: /:year/:month/:day/:title/
 defaults:
   - scope:
       path: ""
-      type: "pages"
+      type: "posts"
     values:
-      layout: "page"
+      layout: "post"
 
 include: ["_pages"]
