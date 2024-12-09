@@ -2,7 +2,7 @@
 
 이곳은 **Markdown만**으로 만든 블로그입니다.
 
-- [About Me](_pages/home.md)
+- [About Me](home.md)
 - [Contact](contact.md)
 - [Blog Post 1](post1.md)
 - [Blog Post 2](post2.md)
