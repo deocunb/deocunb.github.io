@@ -3,9 +3,9 @@
 # - [Blog Post 1](post1.md)
 # - [Blog Post 2](post2.md)
 
-main:
-  - title: "Home"
-    url: /home/
+# main:
+#   - title: "Home"
+#     url: /home/
   # - title: "About"
   #   url: /about/
   # - title: "Categories"
