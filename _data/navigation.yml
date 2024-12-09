@@ -5,7 +5,7 @@
 
 main:
   - title: "Home"
-    url: {% link _pages/home.md %}
+    url: /home/
   - title: "About"
     url: /about/
   - title: "Categories"
