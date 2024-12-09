@@ -13,6 +13,8 @@
 
 이 페이지는 GitHub Pages를 사용하여 만들었습니다.
 
-{% for post in site.posts limit:5 %}
-- [{{ post.title }}]({{ post.url }})
+{% for page in site.pages %}
+  {% if page.title %}
+    - [{{ page.title }}]({{ page.url | relative_url }})
+  {% endif %}
 {% endfor %}
