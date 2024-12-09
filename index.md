@@ -8,3 +8,7 @@
 - [Blog Post 2](post2.md)
 
 이 페이지는 GitHub Pages를 사용하여 만들었습니다.
+
+{% for post in site.posts limit:5 %}
+- [{{ post.title }}]({{ post.url }})
+{% endfor %}
