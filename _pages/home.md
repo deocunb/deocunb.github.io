@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "HOMEPAGE"
+title: "Home"
 permalink: /home/
 ---
 
