@@ -6,7 +6,7 @@
 main:
   - title: "Home"
     url: /home/
-  - title: "About"
-    url: /about/
-  - title: "Categories"
-    url: /categories/
+  # - title: "About"
+  #   url: /about/
+  # - title: "Categories"
+  #   url: /categories/
