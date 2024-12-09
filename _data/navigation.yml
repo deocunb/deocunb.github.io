@@ -1,0 +1,12 @@
+# - [About]({% link _pages/home.md %})
+# - [Contact](contact.md)
+# - [Blog Post 1](post1.md)
+# - [Blog Post 2](post2.md)
+
+main:
+  - title: "Home"
+    url: {% link _pages/home.md %}
+  - title: "About"
+    url: /about/
+  - title: "Categories"
+    url: /categories/
