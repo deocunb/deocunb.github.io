@@ -2,9 +2,11 @@
 
 이곳은 **Markdown만**으로 만든 블로그입니다.
 
+{% raw %}
 {% for post in site.posts limit:5 %}
-- [{{ post.title }}]({{ post.url }})
+- [{{ post.title }}]({{ post.url | relative_url }})
 {% endfor %}
+{% endraw %}
 
 - [About]({% link _pages/home.md %})
 - [Contact](contact.md)
