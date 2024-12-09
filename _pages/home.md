@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "HOMEPAGE"
-permalink: /home
+permalink: /home/
 ---
 
 # HOMEPAGE
