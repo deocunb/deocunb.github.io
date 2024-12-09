@@ -1,3 +1,7 @@
+- [Home]({{ site.baseurl }}/)
+- [About]({{ site.baseurl }}/about/)
+- [Contact]({{ site.baseurl }}/contact/)
+
 ---
 layout: default
 title: "About Me"
