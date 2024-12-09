@@ -1,9 +1,3 @@
----
-layout: default
-title: "Home"
-permalink: /home/
----
-
 # HOMEPAGE
 
 Welcome to my personal website! This is where I tell you a bit about myself.
