@@ -20,13 +20,19 @@
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
         <!-- 네비게이션 코드 추가 -->
-        <nav>
+<!--         <nav>
           <ul>
             {% for item in site.data.navigation.main %}
               <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
               <br/>
             {% endfor %}
           </ul>
+        </nav> -->
+
+        <nav class="main-nav">
+          {% for item in site.data.navigation.main %}
+            <a href="{{ item.url | relative_url }}" class="nav-item">{{ item.title }}</a>
+          {% endfor %}
         </nav>
 
       </header>
