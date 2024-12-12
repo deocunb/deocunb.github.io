@@ -1,12 +1,12 @@
 theme: jekyll-theme-minimal
 permalink: /:year/:month/:day/:title/
 
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
+# defaults:
+#   - scope:
+#       path: ""
+#       type: "posts"
+#     values:
+#       layout: "post"
   # - scope:
   #     path: ""
   #     type: "pages"
