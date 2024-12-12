@@ -1,4 +1,5 @@
-theme: jekyll-theme-minimal
+# theme: jekyll-theme-minimal
+remote_theme: mmistakes/minimal-mistakes
 permalink: /:year/:month/:day/:title/
 
 defaults:
@@ -7,5 +8,10 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
 
 include: ["_pages"]
