@@ -24,6 +24,7 @@
           <ul>
             {% for item in site.data.navigation.main %}
               <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+              <br/>
             {% endfor %}
           </ul>
         </nav>
